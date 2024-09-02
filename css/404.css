@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+}
+
+.error-title {
+    font-size: 100px;
+    color: #7A3824;
+}
+
+.error-message {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-custom {
+    background-color: #7A3824;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.btn-custom:hover {
+    background-color: #5d2d1d;
+}
